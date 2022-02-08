@@ -1,4 +1,4 @@
-## This is a fork of the original multipool-installer by crypto-builders. All code is their work. I only added a few lines to install PHP packages causing issues after the installation on Ubuntu 18.04. The following is the rest of the original readme:
+## This is a fork of the original multipool-installer by cryptopool-builders. All code is their work. I only added a few lines to install PHP packages causing issues after the installation on Ubuntu 18.04. The following is the rest of the original readme:
 
 ## Ultimate Crypto-Server Setup Installer! 🚀
 
@@ -38,7 +38,7 @@ Installation:
 Requires a fresh Ubuntu 16.04 or Ubuntu 18.04 installation.
 
 ```
-curl https://raw.githubusercontent.com/cryptopool-builders/Multi-Pool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/fredsat/Multi-Pool-Installer/master/bootstrap.sh | bash
 ```
 
 Update:
@@ -46,7 +46,7 @@ Update:
 When a new release is made public updating is as simple as running the same command as above.
 
 ```
-curl https://raw.githubusercontent.com/cryptopool-builders/Multi-Pool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/fredsat/Multi-Pool-Installer/master/bootstrap.sh | bash
 ```
 
 ## ▶️ Usage
