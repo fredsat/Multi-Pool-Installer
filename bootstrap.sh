@@ -4,6 +4,7 @@
 #########################################################
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox
 # Updated by cryptopool.builders for crypto use...
+# Fixed by fredsat for blank page admin issues (18.04) and other minor additions.
 # This script is intended to be run like this:
 #
 #   curl https://raw.githubusercontent.com/cryptopool-builders/Multi-Pool-Installer/master/bootstrap.sh | bash
@@ -26,7 +27,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/cryptopool-builders/multipool_setup \
+		https://github.com/fredsat/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
